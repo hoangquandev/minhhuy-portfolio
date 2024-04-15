@@ -1,0 +1,46 @@
+body {
+  background-color: #0D0D0D;
+  color: #b7ab98;
+}
+
+.hidden-content {
+  --x: 0px;
+  --y: 0px;
+  --size: 18px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #ec4e39;
+  /* background: -moz-linear-gradient(180deg,
+      rgba(251, 156, 132, 1) 0%,
+      rgba(240, 102, 128, 1) 50%,
+      rgba(129, 36, 112, 1) 100%);
+  background: -webkit-linear-gradient(180deg,
+      rgba(251, 156, 132, 1) 0%,
+      rgba(240, 102, 128, 1) 50%,
+      rgba(129, 36, 112, 1) 100%);
+  background: linear-gradient(180deg,
+      rgba(251, 156, 132, 1) 0%,
+      rgba(240, 102, 128, 1) 50%,
+      rgba(129, 36, 112, 1) 100%); */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ec4e39", endColorstr="#ec4e39", GradientType=1);
+  color: var(--bg);
+  --mask: radial-gradient(circle at var(--x) var(--y),
+      black var(--size),
+      transparent 0);
+  -webkit-mask-image: var(--mask);
+  mask-image: var(--mask);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+#mask {
+  mask-image: url('./assets/mask.svg');
+  mask-repeat: no-repeat;
+  mask-size: 20px;
+  background: #ec4e39;
+  position: absolute;
+  color: black;
+}
