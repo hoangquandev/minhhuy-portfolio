@@ -36,7 +36,7 @@ function Title({ data, setSelectedProject }) {
                     borderTop: '1px solid rgba(183, 171, 152, 0.25)',
                     borderBottom: '1px solid rgba(183, 171, 152, 0.25)',
                 }}
-                className='relative z-[2] px-40'>
+                className='relative z-[2] px-8 lg:px-40'>
                 <div className='inline-block '
                     onMouseLeave={() => { setSelectedProject(null) }}
                     onMouseEnter={() => {

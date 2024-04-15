@@ -19,12 +19,12 @@ const Experience = () => {
   }
 
   return (
-    <div className=' h-[500px]  xl:mx-48 lg:mx-40 md:mx-32 sm:mx-24 2xl:text-[5rem] xl:text-[4rem] lg:text-[3rem]
-                     md:text-[2rem] sm:text-[1rem] leading-[66px] z-10 mix-blend-differenc'>
-      <div className='uppercase text-[16px] font-bold leading-[28px] mx-20 md:mx-0 tracking-[0.5rem] mb-20 '>
+    <div className=' h-[350px] lg:h-[500px]  xl:mx-48 lg:mx-40 md:mx-32 sm:mx-24 2xl:text-[5rem] xl:text-[4rem] lg:text-[3rem]
+                     md:text-[2rem] sm:text-[1rem] z-10 mix-blend-differenc'>
+      <div className='uppercase text-[16px] font-bold leading-[28px] mx-8 lg:mx-20 md:mx-0 tracking-[0.5rem] mb-20 '>
         my skills
       </div>
-      <p className=''
+      <p className='mx-8 lg:mx-20'
         onMouseMove={HandleMouseMove}
         onMouseLeave={HandleMouseLeave}
       >

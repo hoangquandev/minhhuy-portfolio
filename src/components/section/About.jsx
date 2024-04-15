@@ -19,11 +19,11 @@ const About = ({ text }) => {
     }
 
     return (
-        <div name='about' className='h-screen w-screen flex justify-center items-center'>
-            <div className='w-3/5'>
+        <div name='about' className=' h-[40vh] lg:h-screen w-screen flex justify-center items-center'>
+            <div className='w-5/6 lg:w-3/5'>
                 <TitleSection title='about me' />
                 <div
-                    className='text-7xl'
+                    className='text-2xl lg:text-7xl'
                     onMouseMove={HandleMouseMove}
                     onMouseLeave={HandleMouseLeave}
                 >

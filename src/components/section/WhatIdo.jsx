@@ -31,8 +31,8 @@ const WhatIdo = () => {
   ]
   const [selectedProject, setSelectedProject] = useState(null)
   return (
-    <div className='h-[100vh]  '>
-      <div className='pl-36'>
+    <div className='w-screen h-[50vh] lg:h-[100vh]'>
+      <div className='pl-8 lg:pl-36'>
         <TitleSection title='what i do' />
       </div>
       <section className=' relative flex flex-col justify-center items-center bg-transparent ' id='project'>

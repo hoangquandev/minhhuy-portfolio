@@ -63,7 +63,7 @@ function App() {
 
   }, [])
   return (
-    <div ref={content} className='relative'>
+    <div ref={content} className='relative w-screen overflow-hidden'>
       <div>
         <Hero name='minh huy' slogan='making good shit since 2023' />
         <About isMask={false} text={"I'm A creative developer - with strong clean code and animation skill - making good website only if the paycheck is equally good."} />

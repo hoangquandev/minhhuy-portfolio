@@ -60,9 +60,9 @@ const Contact = () => {
 
     // const mouse = useContext(MouseContext)
     return (
-        <div className='  '  >
+        <div className='w-screen'  >
             <div className='w-full h-full flex flex-col text-center justify-center items-center text-[#b7ab98] font-bold  z-10 mix-blend-difference'>
-                <p className='w-[] text-[2rem] tracking-[0.5rem] p-10 uppercase'>
+                <p className='text-[2rem] tracking-[0.5rem] p-10 uppercase'>
                     my motto
                 </p>
                 <p className=' 2xl:text-[8rem] xl:text-[6rem] lg:text-[4rem] md:text-[2rem] sm:text-[1rem] flex p-10 uppercase ' >
@@ -71,7 +71,7 @@ const Contact = () => {
 
                 <p>-Developers-</p>
             </div>
-            <div name='contact' className='  text-[#b7ab98] font-bold mx-40 2xl:mx-80 xl:mx-72 lg:mx-64 md:mx-56 sm:mx-48 mt-40'>
+            <div name='contact' className='  text-[#b7ab98] font-bold mx-20 2xl:mx-80 xl:mx-72 lg:mx-64 md:mx-56 sm:mx-48 mt-40'>
                 <div className='uppercase text-[16px] leading-[28px] tracking-[0.5rem] mb-12'>
                     connect
                 </div>

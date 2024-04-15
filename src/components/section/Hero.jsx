@@ -38,12 +38,12 @@ const Hero = ({ name, slogan, isMask = false }) => {
     }, [])
 
     return (
-        <div className='relative w-screen h-screen flex justify-center items-center text-center'>
-            {!isMask && <div ref={container} className='absolute w-full h-full bottom-0 overflow-hidden'>
-                <img className='grayscale' ref={imgRef} src={huyImg} alt="" />
+        <div className='relative w-screen h-[50vh] lg:h-screen flex justify-center items-center text-center'>
+            {!isMask && <div ref={container} className='absolute w-full h-[50vh] lg:h-full bottom-0 overflow-hidden flex justify-center items-end'>
+                <img className='grayscale w-full' ref={imgRef} src={huyImg} alt="" />
             </div>}
             <div className='uppercase z-0'>
-                <h2 className='text-2xl tracking-widest mb-6'>{nameArr.map((item, index) => {
+                <h2 className='text-base lg:text-2xl tracking-widest mb-6'>{nameArr.map((item, index) => {
                     return (
                         <span key={index} className='px-1'>{item}</span>
                     )
@@ -54,7 +54,7 @@ const Hero = ({ name, slogan, isMask = false }) => {
                 >
                     {words.map((item, index) => {
                         return (
-                            <p className='text-9xl font-bold' key={index}>{item}</p>
+                            <p className='text-3xl lg:text-9xl font-bold' key={index}>{item}</p>
                         )
                     })}
                 </div>

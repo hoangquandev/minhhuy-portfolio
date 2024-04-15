@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <>
       <div name='work' className='relative'>
-        <div className='absolute top-16 left-40'>
+        <div className='absolute -top-14 left-6 lg:top-16 lg:left-40'>
           <TitleSection title='Projects' />
         </div>
         <section className='h-[60vw] relative flex justify-center items-center bg-transparent' id='project'>
