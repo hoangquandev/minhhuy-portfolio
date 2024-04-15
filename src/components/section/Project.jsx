@@ -6,7 +6,7 @@ import TitleSection from '../ui/TitleSection'
 const Project = () => {
   return (
     <>
-      <div className='relative'>
+      <div name='work' className='relative'>
         <div className='absolute top-16 left-40'>
           <TitleSection title='Projects' />
         </div>

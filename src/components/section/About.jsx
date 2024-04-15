@@ -19,7 +19,7 @@ const About = ({ text }) => {
     }
 
     return (
-        <div className='h-screen w-screen flex justify-center items-center'>
+        <div name='about' className='h-screen w-screen flex justify-center items-center'>
             <div className='w-3/5'>
                 <TitleSection title='about me' />
                 <div

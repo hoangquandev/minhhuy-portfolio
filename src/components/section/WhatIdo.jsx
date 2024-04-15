@@ -31,7 +31,7 @@ const WhatIdo = () => {
   ]
   const [selectedProject, setSelectedProject] = useState(null)
   return (
-    <div id='work' className='h-[100vh]  '>
+    <div className='h-[100vh]  '>
       <div className='pl-36'>
         <TitleSection title='what i do' />
       </div>
